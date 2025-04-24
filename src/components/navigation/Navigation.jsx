@@ -25,7 +25,7 @@ const Navigation = () => {
               }`
             }
           >
-            About Us
+            Wishes
           </NavLink>
         </li>
         <li>
