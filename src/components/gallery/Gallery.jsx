@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Navigation from '../Navigation/Navigation'
+import Navigation from '../navigation/Navigation'
 
 // Sample image imports (replace with your actual images)
 import img1 from '../images/c7.jpg'
