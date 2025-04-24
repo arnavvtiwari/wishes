@@ -8,14 +8,17 @@
     }
   ],
   "routes": [
-    // 1) Serve all files in /assets (JS/CSS/images) directly:
+    // 1) Serve all files in /assets directly
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
 
-    // 2) Optional: Serve favicon, robots, etc:
+    // 2) Optional: Serve favicon, robots, etc.
     { "src": "/favicon\\.ico", "dest": "/favicon.ico" },
     { "src": "/robots\\.txt",  "dest": "/robots.txt" },
 
-    // 3) Catch everything else and rewrite to index.html:
-    { "src": "/(.*)", "dest": "/index.html" }
+    // 3) Catch all other routes EXCEPT /assets, /favicon.ico, /robots.txt
+    {
+      "src": "/(?!assets/|favicon\\.ico|robots\\.txt)(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
