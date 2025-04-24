@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Navigation from '../navigation/Navigation'
+import Navigation from '../Navigation/Navigation'
 
 // Sample image imports (replace with your actual images)
 import img1 from '../images/c7.jpg'
@@ -83,7 +83,7 @@ const Gallery = () => {
 
         {/* Floating hearts decoration */}
         <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-          {[...Array(10)].map((_, i) => (
+          {[...Array(5)].map((_, i) => (
             <motion.div
               key={i}
               animate={{
