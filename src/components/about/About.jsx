@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import Navigation from '../Navigation/Navigation'
+import Navigation from '../navigation/Navigation'
 
 const About = () => {
   const [wishes, setWishes] = useState([
