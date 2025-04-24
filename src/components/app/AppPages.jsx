@@ -1,4 +1,4 @@
-import Navigation from '../Navigation/Navigation'
+import Navigation from '../navigation/Navigation'
 const AppPage = () => {
     return (
     <>
