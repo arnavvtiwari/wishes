@@ -37,10 +37,49 @@ const Navigation = () => {
               }`
             }
           >
+            Us Together
+          </NavLink>
+        </li>
+        <li>
+          <NavLink 
+            to="/photos" 
+            className={({ isActive }) => 
+              `text-lavender-100 hover:text-white transition-colors ${
+                isActive ? 'border-b-2 border-lavender-300' : ''
+              }`
+            }
+          >
             Gallery
           </NavLink>
         </li>
+        <li>
+          <NavLink 
+            to="/quiz" 
+            className={({ isActive }) => 
+              `text-lavender-100 hover:text-white transition-colors ${
+                isActive ? 'border-b-2 border-lavender-300' : ''
+              }`
+            }
+          >
+            Take the Quiz
+          </NavLink>
+        </li>
+        <li className=' absolute right-5'>
+          <NavLink 
+            to="/" 
+            className={({ isActive }) => 
+              `text-lavender-100 hover:text-red-600 transition-colors  ${
+                isActive ? 'border-b-2 border-lavender-300' : ''
+              }`
+            }
+          >
+            Log Out
+          </NavLink>
+        </li>
         {/* Add more navigation links as needed */}
+      </ul>
+      <ul className=' flex justify-end'>
+      
       </ul>
     </nav>
   )
