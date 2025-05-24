@@ -35,7 +35,7 @@ import img30 from '../uploads/j13.jpg'
 const Photos = () => {
   // Sample photo data with dates
   const photoData = [
-    { id: 1, url: img1, date: '2024-07-20', caption: 'You in Saree' },
+    { id: 1, url: img1, date: '2024-07-20', caption: 'You!!!' },
     { id: 2, url: img2, date: '2025-01-19', caption: 'Looking Cutieeee' },
     { id: 3, url: img3, date: '2024-06-07', caption: 'Us at Dominos' },
     { id: 4, url: img4, date: '2024-06-07', caption: 'Our Room' },
