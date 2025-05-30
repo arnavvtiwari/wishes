@@ -3,17 +3,43 @@ const AppPage = () => {
     return (
     <>
     < Navigation/>
-      <div className="min-h-screen bg-lavender-100 p-8">
-        <h1 className="text-lg text-lavender-900 mb-8 bg-lavender-300/20 backdrop-blur-lg border border-lavender-400/20 py-5 px-7 rounded-xl font-sans">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, vitae distinctio esse cumque quaerat, delectus repudiandae ipsam, possimus exercitationem natus atque quisquam. Qui mollitia dolor nesciunt unde nostrum voluptates, velit reprehenderit id sit, molestiae nobis, neque debitis officia. Itaque nemo nesciunt dolor dicta obcaecati molestias omnis similique iure nostrum at magnam molestiae accusamus recusandae blanditiis autem, suscipit aspernatur provident! Deleniti minima quae iste unde sint dolore nesciunt, alias provident non amet expedita numquam fugiat impedit officia. Impedit aut ipsam similique architecto voluptates corrupti fugit labore est delectus consequatur officiis culpa quos optio voluptas eaque nemo quidem ab reiciendis modi, commodi ullam placeat maxime fugiat. Illo molestiae quo vel corrupti? Magnam, sequi laboriosam! Cum cupiditate, eaque ipsum autem quod tenetur, accusantium nobis doloremque laborum deleniti assumenda, aspernatur enim sit vero tempora repellat fugiat veritatis! Sint beatae totam voluptas ratione eius, saepe minima aut? Eveniet, dignissimos sequi nostrum ipsam veritatis debitis error deserunt repudiandae! Obcaecati libero deserunt amet, cumque ullam ipsum! Iste magnam saepe delectus voluptatem tempora? Quod fugiat voluptas, provident harum officia beatae porro consequatur! Sed beatae perspiciatis, ex dolores nesciunt tenetur at cum deserunt sunt doloribus quod porro, asperiores repudiandae alias harum nam dolor eius! Nulla velit officia blanditiis libero doloremque, maiores nesciunt ullam numquam soluta impedit quaerat repudiandae dolor odit explicabo autem voluptatibus sint magni quibusdam quos delectus maxime eius! Quisquam itaque, saepe aliquid quibusdam ducimus consectetur impedit tempore hic rerum temporibus ullam sunt rem exercitationem porro officiis ipsum explicabo quos est architecto suscipit maiores quaerat in asperiores? At ullam, quia enim eius velit animi ad corporis asperiores unde repudiandae maiores facilis, saepe sequi sapiente explicabo adipisci odio id nulla deserunt illo tempore deleniti nihil dolores laborum. Illo nobis voluptatum, blanditiis eligendi, itaque unde, est soluta exercitationem veritatis consequatur modi earum odit quae magni fugiat quam praesentium natus amet impedit assumenda vitae! Hic aut fugiat dolorum consequuntur illo saepe voluptatem autem ea harum et molestias laudantium sit esse blanditiis placeat, aspernatur quam accusantium officia unde. Temporibus nemo quidem possimus nulla accusantium repellendus, quae numquam consequuntur sed beatae minus laborum quibusdam aperiam iusto veniam repellat fuga voluptatibus earum asperiores ducimus maxime ad? Eveniet, quisquam quo ducimus enim unde beatae autem facilis voluptatibus possimus mollitia! Quam suscipit totam sunt asperiores neque, perspiciatis atque nam explicabo, quod hic beatae. Aperiam assumenda, ullam dolorum deserunt labore aliquam sed. Voluptatibus alias explicabo corrupti, vitae non cumque veniam enim, beatae eos repellat perspiciatis, asperiores nulla voluptate velit a eaque maiores optio laborum temporibus. Mollitia, dolores reprehenderit, corporis esse cum adipisci atque quis vitae porro, assumenda accusantium repellat veritatis sint dicta eveniet? Ea praesentium ratione aut repellat dolores consequatur ut. Ullam optio harum earum impedit magni nisi. Atque expedita aliquid tempora iure! Tempore illum reprehenderit a accusamus dolores. Et obcaecati, voluptatum magni aliquam dolores cupiditate quam omnis quo porro officia, illo eos! Rerum corporis porro, officiis, commodi at eveniet molestias incidunt cum itaque ad, et nam. Dolor libero reprehenderit rem ullam iusto a odio, magni eum optio blanditiis quas accusantium nisi veritatis, qui, error quasi nobis?
-</h1>
-        <nav className="mb-8">
-          {/* Add your navigation links here */}
-        </nav>
-        <div className="space-y-4">
-          {/* Add your app content here */}
-        </div>
+    <div className="bg-white/80 backdrop-blur-sm border border-lavender-300/50 rounded-2xl p-8 shadow-xl relative overflow-hidden mt-10">
+  {/* Decorative corner elements */}
+  <div className="absolute top-0 left-0 w-16 h-16 border-t-4 border-l-4 border-lavender-300 rounded-tl-2xl"></div>
+  <div className="absolute bottom-0 right-0 w-16 h-16 border-b-4 border-r-4 border-lavender-300 rounded-br-2xl"></div>
+  
+  
+  <div className="text-center max-w-2xl mx-auto">
+    <h2 className="text-3xl text-lavender-800 font-light mb-6 tracking-wide">
+      A Heartfelt Apology
+    </h2>
+    
+    <div className="relative py-2 mb-8">
+      <div className="absolute left-0 top-1/2 w-1/4 h-0.5 bg-lavender-300 transform -translate-y-1/2"></div>
+      <div className="absolute right-0 top-1/2 w-1/4 h-0.5 bg-lavender-300 transform -translate-y-1/2"></div>
+      <div className="text-lavender-500 text-4xl mx-auto w-max">❦</div>
+    </div>
+    
+    <div className="bg-lavender-50/50 p-6 rounded-xl mb-8 border border-lavender-200">
+      <p className="text-xl text-lavender-700 leading-relaxed font-serif italic">
+        "My dearest Pumpkin,<br />
+        I'm truly sorry for any pain I've caused. You mean the world to me, 
+        and I never want to see you sad. Please know that every moment 
+        without your smile feels incomplete."
+      </p>
+    </div>
+    
+    <div className="border-t border-lavender-200 pt-6 relative">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-lavender-100 px-4 text-lavender-500">
+        ❦
       </div>
+      <p className="text-lg text-lavender-600 italic">
+        "The greatest apology is changed behavior."
+      </p>
+      <p className="text-lavender-500 mt-1">- Unknown</p>
+    </div>
+  </div>
+</div>
       </>
     )
   }
