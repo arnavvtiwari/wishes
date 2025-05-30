@@ -86,7 +86,7 @@ const LoginForm = () => {
               disabled={isSubmitting}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className={`w-full py-3 px-4 rounded-lg text-white font-medium ${isSubmitting ? 'bg-lavender-400' : 'bg-lavender-600 hover:bg-lavender-700'}`}
+              className={`w-full py-3 px-4 rounded-lg text-white font-medium ${isSubmitting ? 'bg-lavender-400' : 'bg-lavender-500 hover:bg-lavender-700'}`}
             >
               {isSubmitting ? (
                 <motion.span
