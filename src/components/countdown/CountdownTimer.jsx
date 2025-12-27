@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useAuth } from "../auth/Auth";
 
 const TimeUnit = ({ value, label }) => (
     <div className="bg-lavender-100 p-6 rounded-lg shadow-lg">
@@ -12,6 +13,7 @@ const TimeUnit = ({ value, label }) => (
 )
 
 const CountdownTimer = () => {
+  const { login } = useAuth();
     const navigate = useNavigate()
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
     const [showHearts, setShowHearts] = useState(false)
@@ -24,6 +26,7 @@ const CountdownTimer = () => {
         // Check if countdown just finished
         if (Object.values(newTimeLeft).every(val => val <= 0)) {
           setShowHearts(true)
+          login("pumpkin@30")
           setTimeout(() => navigate('/app', { replace: true }), 3000) // Redirect after animation
         }
       }, 1000)
@@ -34,7 +37,7 @@ const CountdownTimer = () => {
   function calculateTimeLeft() {
     // Set target date to April 28 of the CURRENT YEAR at midnight
     const currentYear = new Date().getFullYear()
-    const targetDate = new Date(currentYear, 3, 28) // Month is 0-indexed (3 = April)
+    const targetDate = new Date(currentYear, 11, 28) 
     const now = new Date()
     const difference = targetDate - now
 

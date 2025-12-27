@@ -1,0 +1,12 @@
+<svg id="Meter--Streamline-Carbon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16" width="16">
+  <desc>
+    Meter Streamline Icon: https://streamlinehq.com
+  </desc>
+  <defs></defs>
+  <title>meter</title>
+  <path d="M13 8a4.96415 4.96415 0 0 0 -0.5696 -2.3091l-0.74805 0.74805A3.97415 3.97415 0 0 1 12 8Z" fill="#000000" stroke-width="0.5"></path>
+  <path d="M11.70705 5 11 4.29295l-2.35735 2.35735A1.48295 1.48295 0 0 0 8 6.5a1.5 1.5 0 1 0 1.5 1.5 1.48295 1.48295 0 0 0 -0.1503 -0.64265ZM8 8.5a0.5 0.5 0 1 1 0.5 -0.5 0.50065 0.50065 0 0 1 -0.5 0.5Z" fill="#000000" stroke-width="0.5"></path>
+  <path d="M8 4a3.97575 3.97575 0 0 1 1.56115 0.31765l0.74805 -0.74805A4.9932 4.9932 0 0 0 3 8h1a4.0046 4.0046 0 0 1 4 -4Z" fill="#000000" stroke-width="0.5"></path>
+  <path d="M8 15a7 7 0 1 1 7 -7 7.0079 7.0079 0 0 1 -7 7Zm0 -13a6 6 0 1 0 6 6A6.00685 6.00685 0 0 0 8 2Z" fill="#000000" stroke-width="0.5"></path>
+  <path id="_Transparent_Rectangle_" d="M0 0h16v16H0Z" fill="none" stroke-width="0.5"></path>
+</svg>
