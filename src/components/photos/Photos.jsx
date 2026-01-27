@@ -31,6 +31,7 @@ import img27 from '../uploads/j10.jpg'
 import img28 from '../uploads/j11.jpg'
 import img29 from '../uploads/j12.jpg'
 import img30 from '../uploads/j13.jpg'
+import img31 from '../uploads/j14.jpg'
 
 const Photos = () => {
   // Sample photo data with dates
@@ -65,6 +66,7 @@ const Photos = () => {
     { id: 28, url: img28, date: '2025-04-19', caption: 'TEAM' },
     { id: 29, url: img29, date: '2025-04-19', caption: 'TEAM' },
     { id: 30, url: img30, date: '2025-04-19', caption: 'TEAM' },
+    { id: 31, url: img31, date: '2026-01-24', caption: 'Our Second Date'}
   ];
 
   const [selectedDate, setSelectedDate] = useState('random');

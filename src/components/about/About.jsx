@@ -67,6 +67,19 @@ const About = () => {
       date: "2025-06-28",
       bgColor: "bg-lavender-50"
     },
+    {
+      id: 7,
+      title: "Happy Six Month Anniversary",
+      text: `Hellooo my babyyyyy.....HAPPY SIX MONTHS 💕🎉..... can't believe we made it this far🥹....ik bohot saare hiccups aye iss journey me and aage bhi ayenge hi and it was all because of me.....but I am so glad after all this you're still here with me....it is soo amazing to be with you it almost feels like heaven....this relationship was my dream being in this relationship is such a surreal experience that can't be expressed in words....you are soo damn special for me my pumpkin I can't even imagine a life without you 🐥.
+You've been such a wonderful person in my life everything you say, everything you do just makes me feel so good😭😭....I can't explain how happy I am that this day has come in our lives....ek point tha jb I almost thought ki maine kho diya tumhe pr sach me meri kismat hi hai ki sb theek ho gya humare beech....I have sent you a small gift please accept this and make it a part of your life....I wish this always reminds you of my presence.... I wish it reminds you that I am always with you no matter how far we are from eachother....I hope you like it and make it a part of you ❤️🐥.
+Ik hum jb kuch saalon baad humme 6 mahine kuch khaas nhi lagenge but this day is so special for me I can't even explain...I want you to be happy today.... happy that we are together....happy that we will always be together....I don't care humari kundali me kya likha hai and idk aage humari lives me kya changes ayenge but as far as we are together we will get through anything. I will marry you pumpkin and I will love like no one else can....you deserve so much love and care and will give you all of it.....I am always with you I will always take care of you no matter what problems you are in because your problems are all mine....I just want you to be happy....the happiest you have ever been❤️.
+Happy 6 months Pallavi 💞.....I LOVE YOU ❤️💕
+
+
+I'm sorry mera surprise miserably fail ho gya🥹.... hopefully gift deliver ho jaye kal parso me😭`,
+      date: "2025-08-28",
+      bgColor: "bg-lavender-50"
+    },
   ])
 
   const [selectedWish, setSelectedWish] = useState(null)

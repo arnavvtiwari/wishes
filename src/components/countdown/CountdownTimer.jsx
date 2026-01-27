@@ -37,7 +37,7 @@ const CountdownTimer = () => {
   function calculateTimeLeft() {
     // Set target date to April 28 of the CURRENT YEAR at midnight
     const currentYear = new Date().getFullYear()
-    const targetDate = new Date(currentYear, 11, 28) 
+    const targetDate = new Date(currentYear, 0, 27) 
     const now = new Date()
     const difference = targetDate - now
 
