@@ -36,6 +36,18 @@ import img32 from '../uploads/j15.jpg'
 import img33 from '../uploads/j16.jpg'
 import img34 from '../uploads/c17.jpg'
 import img35 from '../uploads/j17.jpg'
+import img36 from '../uploads/anniversary_1.jpg'
+import img37 from '../uploads/anniversary_2.jpg'
+import img38 from '../uploads/anniversary_3.jpg'
+import img39 from '../uploads/anniversary_4.jpg'
+import img40 from '../uploads/station_1.jpg'
+import img41 from '../uploads/station_2.jpg'
+import img42 from '../uploads/ricos_1.jpg'
+import img43 from '../uploads/ricos_2.jpg'
+import img44 from '../uploads/khalsang_1.jpg'
+import img45 from '../uploads/khalsang_2.jpg'
+import img46 from '../uploads/planatarium_1.jpg'
+import img47 from '../uploads/planatarium_2.jpg'
 
 
 const Photos = () => {
@@ -76,6 +88,18 @@ const Photos = () => {
     { id: 33, url: img32, date: '2026-02-21', caption: 'Apology Date'},
     { id: 34, url: img34, date: '2026-02-21', caption: 'Apology Date'},
     { id: 35, url: img35, date: '2026-02-07', caption: 'Shopping Date'},
+    { id: 36, url: img36, date: '2026-02-28', caption: 'Anniversary Date'},
+    { id: 37, url: img37, date: '2026-02-28', caption: 'Anniversary Date'},
+    { id: 38, url: img38, date: '2026-02-28', caption: 'Anniversary Date'},
+    { id: 39, url: img39, date: '2026-02-28', caption: 'Anniversary Date'},
+    { id: 40, url: img40, date: '2026-03-01', caption: 'Temporary Goodbyes'},
+    { id: 41, url: img41, date: '2026-03-01', caption: 'Temporary Goodbyes'},
+    { id: 42, url: img42, date: '2026-03-26', caption: 'Ricos Date'},
+    { id: 43, url: img43, date: '2026-03-26', caption: 'Ricos Date'},
+    { id: 44, url: img44, date: '2026-04-04', caption: 'Kalsang Date'},
+    { id: 45, url: img45, date: '2026-04-04', caption: 'Kalsang Date'},
+    { id: 46, url: img46, date: '2026-04-18', caption: 'Planatarium Date'},
+    { id: 47, url: img47, date: '2026-04-18', caption: 'Planatarium Date'},
   ];
 
   const [selectedDate, setSelectedDate] = useState('random');

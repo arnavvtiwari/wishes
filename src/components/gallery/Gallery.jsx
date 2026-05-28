@@ -4,16 +4,16 @@ import Navigation from '../navigation/Navigation'
 
 // Sample image imports (replace with your actual images)
 import img1 from '../images/c7.jpg'
-import img2 from '../images/c9.jpg'
+import img2 from '../uploads/anniversary_4.jpg'
 import img3 from '../images/c10.jpg'
 import img4 from '../images/c11.jpg'
-import img5 from '../images/c12.jpg'
+import img5 from '../uploads/anniversary_3.jpg'
 import img6 from '../images/c13.jpg'
-import img7 from '../images/c14.jpg'
+import img7 from '../uploads/khalsang_2.jpg'
 import img8 from '../images/c15.jpg'
 import img9 from '../images/c16.jpg'
 import img10 from '../uploads/c17.jpg'
-// ... import all 17 images
+
 
 const Gallery = () => {
   // Image positions with slight randomness
@@ -24,7 +24,7 @@ const Gallery = () => {
     { row: 0.13, col: 1.75, rotate: 2, delay: 0.7 },
     { row: 1.3, col: 2.9, rotate: -3, delay: 0.9 },
     { row: 1.26, col: 2.15, rotate: 0, delay: .1 },
-    { row: 0.68, col: 2.55, rotate: 280, delay: 1.3 },
+    { row: 0.68, col: 2.55, rotate: 90, delay: 1.3 },
     { row: 1.3, col: 0.75, rotate: -96, delay: 1.5 },
     { row: 0.001, col: 2.59, rotate: -3, delay: 1.7 },
     { row: 1.75, col: 1.59, rotate: 3, delay: 0.7 },
