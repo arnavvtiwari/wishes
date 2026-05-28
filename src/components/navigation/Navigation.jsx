@@ -29,6 +29,9 @@ const Navigation = () => {
           </NavLink>
         </li>
         <li>
+          <span className="px-2 text-xs py-0 text-amber-200 rounded-full bg-red-600 mr-2">
+            New
+          </span>
           <NavLink
             to="/gallery"
             className={({ isActive }) =>
@@ -41,6 +44,9 @@ const Navigation = () => {
           </NavLink>
         </li>
         <li>
+          <span className="px-2 text-xs py-0 text-amber-200 rounded-full bg-red-600 mr-2">
+            New
+          </span>
           <NavLink
             to="/photos"
             className={({ isActive }) =>
@@ -65,9 +71,7 @@ const Navigation = () => {
           </NavLink>
         </li>
         <li>
-          <span className="px-2 text-xs py-0 text-amber-200 rounded-full bg-red-600 mr-2">
-            New
-          </span>
+          
           <NavLink
             to="/fun"
             className={({ isActive }) =>
